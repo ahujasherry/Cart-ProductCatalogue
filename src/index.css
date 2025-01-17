@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Red Hat Text";
+    src: url("/assets/fonts/RedHatText-VariableFont_wght.ttf");
+  }
+}
+
+body {
+  @apply bg-rose-100;
+}
